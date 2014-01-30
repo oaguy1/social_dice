@@ -1,0 +1,2 @@
+class StaticPapgesController < ApplicationController
+end
