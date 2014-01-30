@@ -10,4 +10,11 @@ describe "StaticPages" do
     it { should have_content "Social Dice" }
     it { should have_title "Social Dice" }
   end
+
+  describe "help page" do
+    before { visit help_path }
+
+    it { should have_content "Help" }
+    it { should have_title "Help " }
+  end
 end
